@@ -13,7 +13,7 @@ dotenv.config();
 
 app.use(express.json({ limit: '10mb' }))
 app.use(cors({
-    origin: 'https://school-mangement-crm-aditya-shivhare.vercel.app'
+    origin: 'https://school-mng-crm.vercel.app'
   }));
 
 mongoose
