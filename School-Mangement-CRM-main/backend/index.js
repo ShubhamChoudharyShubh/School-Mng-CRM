@@ -6,6 +6,7 @@ const app = express()
 const Routes = require("./routes/route.js")
 
 const PORT = process.env.PORT || 5000
+const db = process.env.db ||
 
 dotenv.config();
 
@@ -16,7 +17,7 @@ app.use(cors({
   }));
 
 mongoose
-    .connect('mongodb+srv://shubhamchoudharyshubh:Wm06yPrK70JJuf@cluster0.cvliz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+    .connect(db, {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
