@@ -16,7 +16,7 @@ app.use(cors({
   }));
 
 mongoose
-    .connect('mongodb+srv://adityashivhare7291:jq1QfSZQvyEaPxCl@cluster0.cvliz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+    .connect('mongodb+srv://shubhamchoudharyshubh:Wm06yPrK70JJuf@cluster0.cvliz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
