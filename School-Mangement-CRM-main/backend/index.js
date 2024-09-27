@@ -6,7 +6,7 @@ const app = express()
 const Routes = require("./routes/route.js")
 
 const PORT = process.env.PORT || 5000
-const db = process.env.db ||
+const db = process.env.db
 
 dotenv.config();
 
